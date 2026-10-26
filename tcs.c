@@ -73,7 +73,7 @@ int main(){
             printf("#");//底部边框
         }
         printf("\n");
-        if(snakeX[0]<0 || snakeX[0]>MAP_M-3 || snakeY[0]<0 || snakeY[0]>MAP_H-1){
+        if(snakeX[0]<0 || snakeX[0]>MAP_M-3 || snakeY[0]<0 || snakeY[0]>MAP_H-1){//蛇头撞墙，游戏结束
             printf("game overs!\n");
             break;
         }
